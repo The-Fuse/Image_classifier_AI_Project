@@ -110,7 +110,9 @@ probs, flowers = data
 for iterate in range(in_arg.top_k):
    
     if iterate+1 ==1:
-        print("{} is the most likely flower with {}% liklihood".format(flowers[iterate],ceil(probs[iterate]*100)))
+        print("The output is :")
+        print("{} is the most likely flower with {}% ".format(flowers[iterate],ceil(probs[iterate]*100)))
 
     else:
-        print("{} flower with {}% liklihood".format(flowers[iterate],ceil(probs[iterate]*100)))
+        print("Other outputs are :")
+        print("{} flower with {}% ".format(flowers[iterate],ceil(probs[iterate]*100)))
