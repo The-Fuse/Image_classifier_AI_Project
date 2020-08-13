@@ -1,7 +1,7 @@
 
 <h1>Flower Image Classifier</h1>
-In this project, i have created deep learning network to classify flowers per the labels provided. This was a submission project for a AI course provided by Udacity. The project is divided into two parts<br>
-1) We select an Neural Network architecture and train it for a centrain number of times using GPU and then saves the model for further use.<br>
+In this project, i have created deep learning network to classify flowers per the labels provided. This was a submission project for a AI course provided by Udacity. The project is divided into two parts<br><br>
+1) We select an Neural Network architecture and train it for a centrain number of times using GPU and then saves the model for further use.<br><br>
 2) We load the saved model and provide it with an image to for testing the classification model. The project also utilizes transfer learning to import already trained classifiers from the PyTorch package while modifying the classifier attribute of each package.
 
 
