@@ -51,7 +51,7 @@ These are the files included as part of the project and what each contains:
             <li>Basic usage: python predict.py /path/to/image checkpoint</li>
             <li>Options:<li>
                 <ul>
-                    <li>Return top KK most likely classes          :<b>"predict.py input checkpoint --top_k 3"</b></li>
+                    <li>Return top KK most likely classes           :<b>"predict.py input checkpoint --top_k 3"</b></li>
                     <li>Use a mapping of categories to real names  :<b>"python predict.py input checkpoint --category_names cat_to_name.json"</b></li>
                     <li>Use GPU for inference                      :<b>"python predict.py input checkpoint --gpu"</b></li>
                 </ul>
