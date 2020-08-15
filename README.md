@@ -36,7 +36,7 @@ These are the files included as part of the project and what each contains:
 <ol>
     <li>Train a new network on a data set with train.py</li>
             <ul>
-                    <li>Basic usage: python train.py data_directory</li>
+                    <li>Basic usage: python train.py (file should be in data_directory)</li>
                     <li>Prints out training loss, validation loss, and validation accuracy as the network trains</li>
                     <li>Other params for different purpose:
                     <ul>
